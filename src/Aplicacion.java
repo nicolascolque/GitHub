@@ -3,7 +3,8 @@ import Vista.Pantallas;
 import Controlador.Logica;
 import Modelo.Persona;
 
-public class Aplicacion {
+public class Aplicacion 
+{
 	public static void main(String[] args)
 	{
 		Pantallas vista= new Pantallas();
@@ -19,6 +20,7 @@ public class Aplicacion {
 				}
 			
 			for (int x = 0; x < cantidadPersonas; x++) 
+				
 				{
 					Persona ekis = Controlador.traerPersona(x);
 					vista.mostrarMensaje(ekis.getNombre());

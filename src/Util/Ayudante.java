@@ -11,10 +11,11 @@ public class Ayudante
 			
 				valorConvertido= Integer.parseInt(valor);
 						
-			} catch (NumberFormatException nb){
+			} catch (NumberFormatException nb)
+				{
 		
-				System.out.println(nb.getMessage());
-		}
+					System.out.println(nb.getMessage());
+				}
 		return valorConvertido;
 	}
 

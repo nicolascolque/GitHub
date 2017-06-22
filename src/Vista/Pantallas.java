@@ -17,10 +17,10 @@ public class Pantallas {
 		 	 
 	 }
  
-public   void mostrarMensaje(String mensaje)
+public void mostrarMensaje(String mensaje)
 	  {
 		  JFrame frame = new JFrame();
-		  JOptionPane.showInternalMessageDialog(frame, mensaje);
+		  JOptionPane.showMessageDialog(frame, mensaje);
 	  }
   
 

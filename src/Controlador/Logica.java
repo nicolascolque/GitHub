@@ -2,11 +2,11 @@ package Controlador;
 import Modelo.Persona;
 public class Logica 
 	{
-	Persona[] Persona;
+	Persona[] Personas;
 	
 	public void inicializarPersona(int cantidadpersonas)
 		{
-			Persona = new Persona [cantidadpersonas];
+			Personas = new Persona [cantidadpersonas];
 			
 		}
 	public void ingresarPersonas(int posicion , String Nombre)
@@ -14,14 +14,14 @@ public class Logica
 		Persona nuevaPersona = new Persona();
 			
 			nuevaPersona.setNombre(Nombre);
-			Persona[posicion]= nuevaPersona;
+			Personas[posicion]= nuevaPersona;
 		}
 public 	Persona traerPersona (int posicion)
 		{
-			return Persona[posicion];
+			return Personas[posicion];
 		}
 	Persona[]getPersonas()
 		{
-			return Persona;
+			return Personas;
 		}
 	}

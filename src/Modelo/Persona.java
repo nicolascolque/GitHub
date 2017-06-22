@@ -15,6 +15,7 @@ public class Persona {
 		}
 	
 	public Persona (){}
+	
 	public Persona (boolean llenarBD){
 		if(llenarBD)
 		crearBD();
